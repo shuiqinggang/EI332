@@ -1,0 +1,19 @@
+ addi $1,$0,192 
+ addi $2,$0,128
+ addi $6,$0,1
+loop: lw $3,0($1)    
+   lw $4,4($1) 
+   lw $5,8($1)
+   sw $3,0($2)  
+   sw $4,4($2) 
+beq  $5,$6,subsub
+sll $0,$0,0   
+add $7,$3,$4  
+ sw $7,8($2)    
+j loop
+sll $0,$0,0     
+ subsub:sub $7,$3,$4  
+ sw $7,8($2)    
+j loop
+sll $0,$0,0   
+addi $0,$0,-1
