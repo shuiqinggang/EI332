@@ -1,0 +1,16 @@
+DEPTH = 64;           % Memory depth and width are required %
+WIDTH = 32;           % Enter a decimal number %
+ADDRESS_RADIX = HEX;  % Address and value radixes are optional %
+DATA_RADIX = HEX;     % Enter BIN, DEC, HEX, or OCT; unless %
+% otherwise specified, radixes = HEX %
+CONTENT
+BEGIN
+0 : 20020050;  %        addi $2,$0,80 | 00100000000000100000000001010000 %
+1 : 8c430000;  %        lw $3,0($2) | 10001100010000110000000000000000 %
+2 : 0c000005;  %        jal multi4 | 00001100000000000000000000000101 %
+3 : 00a53020;  %        add $6, $5, $5 | 00000000101001010011000000100000 %
+4 : 00a53020;  %        add $6, $5, $5 | 00000000101001010011000000100000 %
+5 : 00632020;  % multi4:add $4, $3, $3 | 00000000011000110010000000100000 %
+6 : 00842820;  %        add $5, $4, $4 | 00000000100001000010100000100000 %
+7 : 03e00008;  %        jr $31 | 00000011111000000000000000001000 %
+END ;

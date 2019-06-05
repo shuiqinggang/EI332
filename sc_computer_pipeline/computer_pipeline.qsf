@@ -1,0 +1,153 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 17:06:45  May 30, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		computer_pipeline_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY computer_pipeline
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:06:45  MAY 30, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name MIF_FILE source/mips2.mif
+set_global_assignment -name MIF_FILE source/sc_datamem.mif
+set_global_assignment -name VERILOG_FILE source/alu.v
+set_global_assignment -name VERILOG_FILE source/io_input_reg.v
+set_global_assignment -name VERILOG_FILE source/io_output_reg.v
+set_global_assignment -name VERILOG_FILE source/lpm_ram_dq_dram.v
+set_global_assignment -name VERILOG_FILE source/lpm_rom_irom.v
+set_global_assignment -name VERILOG_FILE source/mux2x5.v
+set_global_assignment -name VERILOG_FILE source/mux2x32.v
+set_global_assignment -name VERILOG_FILE source/mux4x32.v
+set_global_assignment -name VERILOG_FILE source/pipedereg.v
+set_global_assignment -name VERILOG_FILE source/pipeemreg.v
+set_global_assignment -name VERILOG_FILE source/pipeexe.v
+set_global_assignment -name VERILOG_FILE source/pipeid.v
+set_global_assignment -name VERILOG_FILE source/pipeif.v
+set_global_assignment -name VERILOG_FILE source/pipeir.v
+set_global_assignment -name VERILOG_FILE source/pipemem.v
+set_global_assignment -name VERILOG_FILE source/pipemwreg.v
+set_global_assignment -name VERILOG_FILE source/pipepc.v
+set_global_assignment -name VERILOG_FILE source/regfile.v
+set_global_assignment -name VERILOG_FILE source/sc_computer_pipeline.v
+set_global_assignment -name VERILOG_FILE source/sc_cu.v
+set_global_assignment -name VERILOG_FILE source/sc_datamem.v
+set_global_assignment -name VERILOG_FILE source/sc_instmen.v
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+set_global_assignment -name BDF_FILE computer_pipeline.bdf
+set_location_assignment PIN_AH28 -to hex0[6]
+set_location_assignment PIN_AG28 -to hex0[5]
+set_location_assignment PIN_AF28 -to hex0[4]
+set_location_assignment PIN_AG27 -to hex0[3]
+set_location_assignment PIN_AE28 -to hex0[2]
+set_location_assignment PIN_AE27 -to hex0[1]
+set_location_assignment PIN_AE26 -to hex0[0]
+set_location_assignment PIN_AD27 -to hex1[6]
+set_location_assignment PIN_AF30 -to hex1[5]
+set_location_assignment PIN_AF29 -to hex1[4]
+set_location_assignment PIN_AG30 -to hex1[3]
+set_location_assignment PIN_AH30 -to hex1[2]
+set_location_assignment PIN_AH29 -to hex1[1]
+set_location_assignment PIN_AJ29 -to hex1[0]
+set_location_assignment PIN_AC30 -to hex2[6]
+set_location_assignment PIN_AC29 -to hex2[5]
+set_location_assignment PIN_AD30 -to hex2[4]
+set_location_assignment PIN_AC28 -to hex2[3]
+set_location_assignment PIN_AD29 -to hex2[2]
+set_location_assignment PIN_AE29 -to hex2[1]
+set_location_assignment PIN_AB23 -to hex2[0]
+set_location_assignment PIN_AB22 -to hex3[6]
+set_location_assignment PIN_AB25 -to hex3[5]
+set_location_assignment PIN_AB28 -to hex3[4]
+set_location_assignment PIN_AC25 -to hex3[3]
+set_location_assignment PIN_AD25 -to hex3[2]
+set_location_assignment PIN_AC27 -to hex3[1]
+set_location_assignment PIN_AD26 -to hex3[0]
+set_location_assignment PIN_W25 -to hex4[6]
+set_location_assignment PIN_V23 -to hex4[5]
+set_location_assignment PIN_W24 -to hex4[4]
+set_location_assignment PIN_W22 -to hex4[3]
+set_location_assignment PIN_Y24 -to hex4[2]
+set_location_assignment PIN_Y23 -to hex4[1]
+set_location_assignment PIN_AA24 -to hex4[0]
+set_location_assignment PIN_AA25 -to hex5[6]
+set_location_assignment PIN_AA26 -to hex5[5]
+set_location_assignment PIN_AB26 -to hex5[4]
+set_location_assignment PIN_AB27 -to hex5[3]
+set_location_assignment PIN_Y27 -to hex5[2]
+set_location_assignment PIN_AA28 -to hex5[1]
+set_location_assignment PIN_V25 -to hex5[0]
+set_location_assignment PIN_AF14 -to CLOCK_50
+set_location_assignment PIN_AA16 -to CLOCK2_50
+set_location_assignment PIN_Y26 -to CLOCK3_50
+set_location_assignment PIN_K14 -to CLOCK4_50
+set_location_assignment PIN_D25 -to HPS_CLOCK1_25
+set_location_assignment PIN_F25 -to HPS_CLOCK2_25
+set_location_assignment PIN_AA14 -to KEY[0]
+set_location_assignment PIN_AA15 -to KEY[1]
+set_location_assignment PIN_W15 -to KEY[2]
+set_location_assignment PIN_Y16 -to KEY[3]
+set_location_assignment PIN_V16 -to LEDR[0]
+set_location_assignment PIN_W16 -to LEDR[1]
+set_location_assignment PIN_V17 -to LEDR[2]
+set_location_assignment PIN_V18 -to LEDR[3]
+set_location_assignment PIN_W17 -to LEDR[4]
+set_location_assignment PIN_W19 -to LEDR[5]
+set_location_assignment PIN_Y19 -to LEDR[6]
+set_location_assignment PIN_W20 -to LEDR[7]
+set_location_assignment PIN_W21 -to LEDR[8]
+set_location_assignment PIN_AE12 -to LEDR[9]
+set_location_assignment PIN_AB12 -to SW[0]
+set_location_assignment PIN_AC12 -to SW[1]
+set_location_assignment PIN_AF9 -to SW[2]
+set_location_assignment PIN_AF10 -to SW[3]
+set_location_assignment PIN_AD11 -to SW[4]
+set_location_assignment PIN_AD12 -to SW[5]
+set_location_assignment PIN_AE11 -to SW[6]
+set_location_assignment PIN_AC9 -to SW[7]
+set_location_assignment PIN_AD10 -to SW[8]
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AE12 -to SW9
+set_global_assignment -name CDF_FILE Chain1.cdf
+set_global_assignment -name CDF_FILE Chain3.cdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name CDF_FILE Chain4.cdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

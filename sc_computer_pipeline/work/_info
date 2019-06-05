@@ -1,0 +1,480 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+valu
+Z1 Ik3zYb<1JnbSImmf^c3FzU2
+Z2 V7WhcNChHE10k:fH6QanEO0
+Z3 dC:\altera\13.1\sc_computer_pipeline_alu
+Z4 w1559650180
+Z5 8C:/altera/13.1/sc_computer_pipeline_alu/source/alu.v
+Z6 FC:/altera/13.1/sc_computer_pipeline_alu/source/alu.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 =D87hGLHCB=A?VE:n3z093
+Z10 !s108 1559737820.431000
+Z11 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/alu.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vio_input_mux
+Z13 I=_04;bRB45aSRJLW_B?[S0
+Z14 V]RS@1G^?Vl`:7>J1lLa_>3
+R3
+Z15 w1559031839
+Z16 8C:/altera/13.1/sc_computer_pipeline_alu/source/io_input_reg.v
+Z17 FC:/altera/13.1/sc_computer_pipeline_alu/source/io_input_reg.v
+L0 26
+R7
+r1
+31
+Z18 !s108 1559737820.633000
+Z19 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/io_input_reg.v|
+Z20 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/io_input_reg.v|
+R8
+Z21 !s100 7`M^F4L>9IIR=<Q?9PUeQ0
+!i10b 1
+!s85 0
+!s101 -O0
+vio_input_reg
+Z22 IQC=lo>7h7RV2>^@c?66f31
+Z23 VDd7ZiYc5`VTWISBia=^ZM1
+R3
+R15
+R16
+R17
+L0 1
+R7
+r1
+31
+R18
+R19
+R20
+R8
+Z24 !s100 0hDSK83_JcHg2KEL1IB2?1
+!i10b 1
+!s85 0
+!s101 -O0
+vio_output_reg
+Z25 I?`VJJPjme^hkcFVA_8XLB0
+Z26 V9E;k8<66]gVCNAVlnS@:?2
+R3
+Z27 w1559092176
+Z28 8C:/altera/13.1/sc_computer_pipeline_alu/source/io_output_reg.v
+Z29 FC:/altera/13.1/sc_computer_pipeline_alu/source/io_output_reg.v
+L0 1
+R7
+r1
+31
+R8
+Z30 !s100 ;d@_@`ScRJLXIgIn[LHhz3
+Z31 !s108 1559737821.046000
+Z32 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/io_output_reg.v|
+Z33 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/io_output_reg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_ram_dq_dram
+Z34 IG]<JEIK]HBZ_<Y<KB1`;a2
+Z35 V;^>UgMFOjF@EZ@A<NMAW`0
+R3
+Z36 w1558951302
+Z37 8C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_ram_dq_dram.v
+Z38 FC:/altera/13.1/sc_computer_pipeline_alu/source/lpm_ram_dq_dram.v
+L0 39
+R7
+r1
+31
+R8
+Z39 !s100 Jh_zjLB8JFZ2a5k1QhaVf0
+Z40 !s108 1559737821.270000
+Z41 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_ram_dq_dram.v|
+Z42 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_ram_dq_dram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_rom_irom
+!i10b 1
+!s100 1`W2Ezg0=3`MP@>EdJ?Mm2
+I?M==kDg[ZKmI2ofdD4>J:1
+Z43 V6I?:oUA0HYdli42?U:6:L0
+R3
+w1559739224
+Z44 8C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_rom_irom.v
+Z45 FC:/altera/13.1/sc_computer_pipeline_alu/source/lpm_rom_irom.v
+L0 39
+R7
+r1
+!s85 0
+31
+!s108 1559739411.031000
+!s107 C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_rom_irom.v|
+Z46 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_rom_irom.v|
+!s101 -O0
+R8
+vmux2x32
+Z47 IzgAWYFjJo_L`NI]Wfj3WP3
+Z48 V_8o=]o8CzEDeX@^n?a@zP3
+R3
+Z49 w1252908544
+Z50 8C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x32.v
+Z51 FC:/altera/13.1/sc_computer_pipeline_alu/source/mux2x32.v
+L0 1
+R7
+r1
+31
+R8
+Z52 !s100 8QFmi^MkVNPnOgkNe]k2I1
+Z53 !s108 1559737821.966000
+Z54 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x32.v|
+Z55 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x5
+Z56 I^5aCzA04>UEABoN:iLPDT1
+Z57 Vah3g>_]Y^Qz2GXD7HR^<<3
+R3
+Z58 w1253170143
+Z59 8C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x5.v
+Z60 FC:/altera/13.1/sc_computer_pipeline_alu/source/mux2x5.v
+L0 1
+R7
+r1
+31
+R8
+Z61 !s100 bVh=az91Qf1AX:CP3XCLl2
+Z62 !s108 1559737821.737000
+Z63 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x5.v|
+Z64 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux4x32
+Z65 I8`gJiWaodPToQK93CkQTX1
+Z66 VM:hYY`k:C]4^:^k7d8C]M0
+R3
+Z67 w1252998688
+Z68 8C:/altera/13.1/sc_computer_pipeline_alu/source/mux4x32.v
+Z69 FC:/altera/13.1/sc_computer_pipeline_alu/source/mux4x32.v
+L0 1
+R7
+r1
+31
+R8
+Z70 !s100 k=Rk1bP9ZRKH2iBCfXEWL2
+Z71 !s108 1559737822.150000
+Z72 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/mux4x32.v|
+Z73 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/mux4x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipedereg
+Z74 I6HdiUoT@[^fK[:7E96n_W0
+Z75 VcA>3gWnZG>eC<;iViLf^f2
+R3
+Z76 w1559728183
+Z77 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipedereg.v
+Z78 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipedereg.v
+L0 1
+R7
+r1
+31
+R8
+Z79 !s100 Z24J@N?=NNjM7C9?K2kB>3
+Z80 !s108 1559737822.471000
+Z81 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipedereg.v|
+Z82 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipedereg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeemreg
+Z83 IdGF]F_bJS6h=mjzCIn^<I1
+Z84 V3I1jGXGA<KJjF8Fd=FNC`3
+R3
+Z85 w1559732182
+Z86 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipeemreg.v
+Z87 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipeemreg.v
+L0 1
+R7
+r1
+31
+R8
+Z88 !s100 g5mLBKbJfP?e8JbadM<YK3
+Z89 !s108 1559737822.656000
+Z90 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipeemreg.v|
+Z91 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipeemreg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeexe
+Z92 Ing3ff69Hdg7MEm;?X>jI00
+Z93 V5lbDPf9VM[ZRRDLBF1OUH1
+R3
+Z94 w1559728369
+Z95 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipeexe.v
+Z96 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipeexe.v
+L0 1
+R7
+r1
+31
+R8
+Z97 !s100 JZJ^W:dl6iANem03mK2^O0
+Z98 !s108 1559737822.813000
+Z99 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipeexe.v|
+Z100 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipeexe.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeid
+Z101 IVihdQUmOoYcQBbgAofHFo2
+Z102 V=d:iIU_WY>3D<>PmQ^N6f0
+R3
+Z103 w1559728011
+Z104 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipeid.v
+Z105 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipeid.v
+L0 1
+R7
+r1
+31
+R8
+Z106 !s100 TDIFVYRVXfAfaF3XV1z`n0
+Z107 !s108 1559737822.992000
+Z108 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipeid.v|
+Z109 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipeid.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeif
+Z110 I_O[UMTnSbg>bAhGJ>N[W00
+Z111 VkmMVfJQLL21E8ei>i:1BT2
+R3
+Z112 w1559724860
+Z113 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipeif.v
+Z114 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipeif.v
+L0 1
+R7
+r1
+31
+R8
+Z115 !s100 MHeZCg`?m>foR6m7khhY<3
+Z116 !s108 1559737823.170000
+Z117 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipeif.v|
+Z118 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipeif.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeir
+Z119 IjnfRhLCUiECDQYIFAKjda0
+Z120 VXAID;`^C?92>R1?9o><oA0
+R3
+Z121 w1559725726
+Z122 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipeir.v
+Z123 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipeir.v
+L0 1
+R7
+r1
+31
+R8
+Z124 !s100 JIIW<nO1gkWSlB0E33T]23
+Z125 !s108 1559737823.341000
+Z126 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipeir.v|
+Z127 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipeir.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipelined_computer
+Z128 I5D4jLFcjd<zRGgZRZ5K:b3
+Z129 VLJ0`jMdgSQ;?o2WBKOGZB1
+R3
+Z130 w1559522684
+Z131 8C:/altera/13.1/sc_computer_pipeline_alu/source/sc_computer_pipeline.v
+Z132 FC:/altera/13.1/sc_computer_pipeline_alu/source/sc_computer_pipeline.v
+L0 1
+R7
+r1
+31
+Z133 !s108 1559737824.516000
+Z134 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/sc_computer_pipeline.v|
+Z135 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/sc_computer_pipeline.v|
+R8
+Z136 !s100 mOTaXM1_0KEJa^8alLJYC0
+!i10b 1
+!s85 0
+!s101 -O0
+vpipemem
+Z137 IH0PRm[TEzSUZ_kmCUjJdN3
+Z138 VRLP4Aj=hLKYlKHS5[n1WR2
+R3
+Z139 w1559737451
+Z140 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipemem.v
+Z141 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipemem.v
+L0 1
+R7
+r1
+31
+R8
+Z142 !s100 1=a[16Q>]SY5[0QzG2Ec;3
+Z143 !s108 1559737823.532000
+Z144 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipemem.v|
+Z145 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipemem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipemwreg
+Z146 I;0UXg^m5W?Wgg6:CUVb_32
+Z147 VId]69z>dOce;D[VcEm6@=3
+R3
+Z148 w1559096276
+Z149 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipemwreg.v
+Z150 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipemwreg.v
+L0 1
+R7
+r1
+31
+R8
+Z151 !s100 hA6PH^^SmQI0kZWd0bYzn0
+Z152 !s108 1559737823.866000
+Z153 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipemwreg.v|
+Z154 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipemwreg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipepc
+Z155 IMdiXd41cH1SHb8Vgo[:7Y3
+Z156 V?TeI]2Q7YZDQM4R_aiind1
+R3
+Z157 w1559724422
+Z158 8C:/altera/13.1/sc_computer_pipeline_alu/source/pipepc.v
+Z159 FC:/altera/13.1/sc_computer_pipeline_alu/source/pipepc.v
+L0 1
+R7
+r1
+31
+R8
+Z160 !s100 ?6j1GmT`8lf:=EoF^GR3g0
+Z161 !s108 1559737824.068000
+Z162 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/pipepc.v|
+Z163 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/pipepc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+Z164 IMnInMeZb0adCm>>EGUW5^0
+Z165 VHL?YD<z4Tlb1gm`0^XW@D2
+R3
+Z166 w1558762106
+Z167 8C:/altera/13.1/sc_computer_pipeline_alu/source/regfile.v
+Z168 FC:/altera/13.1/sc_computer_pipeline_alu/source/regfile.v
+L0 1
+R7
+r1
+31
+R8
+Z169 !s100 _R:H_je<FQ?_od1faDdRi2
+Z170 !s108 1559737824.281000
+Z171 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/regfile.v|
+Z172 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/regfile.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_computer_pipeline_sim
+Z173 I^eJco8T0lNH`ejhk13jOa3
+Z174 VJA2FH_:;a>[@]Kk1k?SJ93
+R3
+Z175 w1559205860
+Z176 8C:/altera/13.1/sc_computer_pipeline_alu/sc_computer_pipeline_sim.v
+Z177 FC:/altera/13.1/sc_computer_pipeline_alu/sc_computer_pipeline_sim.v
+L0 2
+R7
+r1
+31
+R8
+Z178 !s100 `nPbXgXbU?bk77kjY1dh62
+Z179 !s108 1559737820.241000
+Z180 !s107 C:/altera/13.1/sc_computer_pipeline_alu/sc_computer_pipeline_sim.v|
+Z181 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/sc_computer_pipeline_sim.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_cu
+Z182 IhV]CaSJKTXC76jJZ9ECQP1
+Z183 Vh?:[NWb`SQ3>9jj6z]_L93
+R3
+Z184 w1559726875
+Z185 8C:/altera/13.1/sc_computer_pipeline_alu/source/sc_cu.v
+Z186 FC:/altera/13.1/sc_computer_pipeline_alu/source/sc_cu.v
+L0 1
+R7
+r1
+31
+R8
+Z187 !s100 Wga0Jk=Z:;IR9REan[eSd3
+Z188 !s108 1559737824.801000
+Z189 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/sc_cu.v|
+Z190 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/sc_cu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_datamem
+Z191 I0KHhk8@TeeNYmDF]U3:hE2
+Z192 VYfTiUD@;jdR<jmB@Q5bDY0
+R3
+Z193 w1559522411
+Z194 8C:/altera/13.1/sc_computer_pipeline_alu/source/sc_datamem.v
+Z195 FC:/altera/13.1/sc_computer_pipeline_alu/source/sc_datamem.v
+L0 18
+R7
+r1
+31
+R8
+Z196 !s100 H:R[g2EK@U=E_Xm2LBQU`1
+Z197 !s108 1559737825.058000
+Z198 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/sc_datamem.v|
+Z199 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/sc_datamem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_instmem
+Z200 Igk:[ZFbMWA6S_h<6jj=5K2
+Z201 VSI9ReE_F>NZS8VjXH=^N:1
+R3
+Z202 w1559051362
+Z203 8C:/altera/13.1/sc_computer_pipeline_alu/source/sc_instmen.v
+Z204 FC:/altera/13.1/sc_computer_pipeline_alu/source/sc_instmen.v
+L0 1
+R7
+r1
+31
+R8
+!i10b 1
+Z205 !s100 XZZmGS_I`bF8J4]<;:o2d3
+!s85 0
+Z206 !s108 1559737825.353000
+Z207 !s107 C:/altera/13.1/sc_computer_pipeline_alu/source/sc_instmen.v|
+Z208 !s90 -reportprogress|300|-work|work|C:/altera/13.1/sc_computer_pipeline_alu/source/sc_instmen.v|
+!s101 -O0
+vsevenseg
+Z209 I;<n?fVlI^IEEO[bYPmf9z1
+Z210 V<kz4<ET@H::]Aoef`6B9U3
+R3
+R130
+R131
+R132
+Z211 L0 120
+R7
+r1
+31
+R133
+R134
+R135
+R8
+Z212 !s100 4`0n4@ALjD64i7eDSlASG0
+!i10b 1
+!s85 0
+!s101 -O0

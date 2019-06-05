@@ -1,0 +1,164 @@
+C:/altera/13.1/sc_computer_pipeline_alu/source/sc_cu.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/sc_cu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_cu
+
+Top level modules:
+	sc_cu
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipeif.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipeif.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeif
+
+Top level modules:
+	pipeif
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/io_output_reg.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/io_output_reg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module io_output_reg
+
+Top level modules:
+	io_output_reg
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/sc_datamem.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/sc_datamem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_datamem
+
+Top level modules:
+	sc_datamem
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipeemreg.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipeemreg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeemreg
+
+Top level modules:
+	pipeemreg
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipemwreg.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipemwreg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipemwreg
+
+Top level modules:
+	pipemwreg
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipeexe.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipeexe.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeexe
+
+Top level modules:
+	pipeexe
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/alu.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/alu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/sc_instmen.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/sc_instmen.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_instmem
+
+Top level modules:
+	sc_instmem
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_rom_irom.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_rom_irom.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lpm_rom_irom
+
+Top level modules:
+	lpm_rom_irom
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/io_input_reg.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/io_input_reg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module io_input_reg
+-- Compiling module io_input_mux
+
+Top level modules:
+	io_input_reg
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipemem.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipemem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipemem
+
+Top level modules:
+	pipemem
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipedereg.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipedereg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipedereg
+
+Top level modules:
+	pipedereg
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/regfile.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/regfile.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_ram_dq_dram.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/lpm_ram_dq_dram.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lpm_ram_dq_dram
+
+Top level modules:
+	lpm_ram_dq_dram
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/sc_computer_pipeline.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/sc_computer_pipeline.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipelined_computer
+-- Compiling module sevenseg
+
+Top level modules:
+	pipelined_computer
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipepc.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipepc.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipepc
+
+Top level modules:
+	pipepc
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipeir.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipeir.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeir
+
+Top level modules:
+	pipeir
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/sc_computer_pipeline_sim.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/sc_computer_pipeline_sim.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_computer_pipeline_sim
+
+Top level modules:
+	sc_computer_pipeline_sim
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x5.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x5
+
+Top level modules:
+	mux2x5
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x32.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/mux2x32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x32
+
+Top level modules:
+	mux2x32
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/pipeid.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/pipeid.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeid
+
+Top level modules:
+	pipeid
+
+} {} {}} C:/altera/13.1/sc_computer_pipeline_alu/source/mux4x32.v {1 {vlog -work work C:/altera/13.1/sc_computer_pipeline_alu/source/mux4x32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux4x32
+
+Top level modules:
+	mux4x32
+
+} {} {}}

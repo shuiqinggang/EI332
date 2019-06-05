@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -13.002
+TNS   : -6193.111
+
+Type  : Slow 1100mV 85C Model Setup 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : -5.671
+TNS   : -18.356
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -2.812
+TNS   : -72.508
+
+Type  : Slow 1100mV 85C Model Hold 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : -0.696
+TNS   : -2.495
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -1049.860
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -12.998
+TNS   : -6162.201
+
+Type  : Slow 1100mV 0C Model Setup 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : -5.725
+TNS   : -18.606
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -2.876
+TNS   : -75.323
+
+Type  : Slow 1100mV 0C Model Hold 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : -0.752
+TNS   : -2.677
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -1133.495
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -7.923
+TNS   : -3350.643
+
+Type  : Fast 1100mV 85C Model Setup 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : -3.249
+TNS   : -10.278
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -1.625
+TNS   : -36.670
+
+Type  : Fast 1100mV 85C Model Hold 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : -0.374
+TNS   : -1.248
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -384.476
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -7.306
+TNS   : -3014.582
+
+Type  : Fast 1100mV 0C Model Setup 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : -3.116
+TNS   : -9.962
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -1.620
+TNS   : -49.993
+
+Type  : Fast 1100mV 0C Model Hold 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : -0.347
+TNS   : -1.205
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -386.813
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pipelined_computer:inst|pipeemreg:em_reg|malu[2]'
+Slack : 0.359
+TNS   : 0.000
+
+------------------------------------------------------------

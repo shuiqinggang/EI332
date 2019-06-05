@@ -1,0 +1,8 @@
+       addi $2,$0,80
+       lw $3,0($2)
+       jal multi4
+       add $6, $5, $5
+       add $6, $5, $5
+multi4:add $4, $3, $3
+       add $5, $4, $4
+       jr $31
