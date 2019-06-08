@@ -245,10 +245,10 @@ module sc_cu (op, func, rsrtequ, wmem, wreg, regrt, m2reg, aluc, shift,
 	
 
    	
-	// fwda和fwda的设置
+// fwda和fwda的设置
    always @(*)
    begin
-	if(ewreg & (ern != 0) & (ern == rs) )  //将上一条指令的alu结果直通 如果上一条指令是lw的话 那么会停顿一个时钟周期 所以误直通了也无所谓
+	if(ewreg & ~ em2reg & (ern != 0) & (ern == rs) )  //将上一条指令的alu结果直通 如果上一条指令是lw的话 那么会停顿一个时钟周期 所以误直通了也无所谓
          fwda<=2'b01;
       else 
 		if (mwreg & ~ mm2reg & (mrn != 0) & (mrn == rs) ) //将前两条指令的alu结果直通
@@ -263,7 +263,7 @@ module sc_cu (op, func, rsrtequ, wmem, wreg, regrt, m2reg, aluc, shift,
 
    always @(*)
    begin
-      if(ewreg & (ern != 0) & (ern == rt) ) //将上一条指令的alu结果直通
+      if(ewreg & ~ em2reg &(ern != 0) & (ern == rt) ) //将上一条指令的alu结果直通
          fwdb<=2'b01;
       else  
          if (mwreg & ~ mm2reg & (mrn != 0) & (mrn == rt) )  //将前两条指令的alu结果直通
@@ -275,6 +275,16 @@ module sc_cu (op, func, rsrtequ, wmem, wreg, regrt, m2reg, aluc, shift,
                fwdb<=2'b00; // 无需直通 
 
    end
+	
+	/*
+
+	wire [1:0] fwda, fwdb;
+	assign fwda[1] = ~(ewreg & (ern != 0) & (ern == rs) & ~em2reg) & (mwreg & (mrn != 0) & (mrn == rs));
+	assign fwda[0] = (ewreg & (ern != 0) & (ern == rs) & ~em2reg) | (mwreg & (mrn != 0) & (mrn == rs) & mm2reg);
+	
+	assign fwdb[1] = ~(ewreg & (ern != 0) & (ern == rt) & ~em2reg) & (mwreg & (mrn != 0) & (mrn == rt));
+	assign fwdb[0] = (ewreg & (ern != 0) & (ern == rt) & ~em2reg) | (mwreg & (mrn != 0) & (mrn == rt) & mm2reg);
+*/
 	
 endmodule
 ```
@@ -711,7 +721,7 @@ module pipelined_computer (resetn,clock, pc,inst,in_port0,in_port1,in_port_sub,o
 	//在clock上升沿时，将IF阶段需传递给ID阶段的信息，锁存在IF/ID流水线寄存器
 	//中，并呈现在ID阶段。
 	pipeid id_stage ( mwreg,mrn,ern,ewreg,em2reg,mm2reg,dpc4,inst,
-	wrn,wdi,ealu,malu,mmo,wwreg,clock,resetn,
+	wrn,wdi,ealu,malu,mmo,wwreg,mem_clock,resetn,
 	bpc,jpc,pcsource,wpcir,dwreg,dm2reg,dwmem,daluc,
 	daluimm,da,db,dimm,drn,dshift,djal ); // ID stage
 	//ID指令译码模块。注意其中包含控制器CU、寄存器堆、及多个多路器等。

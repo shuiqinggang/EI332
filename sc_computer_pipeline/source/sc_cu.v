@@ -60,10 +60,10 @@ module sc_cu (op, func, rsrtequ, wmem, wreg, regrt, m2reg, aluc, shift,
 	
 
    	
-	// fwda和fwda的设置
+// fwda和fwda的设置
    always @(*)
    begin
-	if(ewreg & (ern != 0) & (ern == rs) )  //将上一条指令的alu结果直通 如果上一条指令是lw的话 那么会停顿一个时钟周期 所以误直通了也无所谓
+	if(ewreg & ~ em2reg & (ern != 0) & (ern == rs) )  //将上一条指令的alu结果直通 如果上一条指令是lw的话 那么会停顿一个时钟周期 所以误直通了也无所谓
          fwda<=2'b01;
       else 
 		if (mwreg & ~ mm2reg & (mrn != 0) & (mrn == rs) ) //将前两条指令的alu结果直通
@@ -78,7 +78,7 @@ module sc_cu (op, func, rsrtequ, wmem, wreg, regrt, m2reg, aluc, shift,
 
    always @(*)
    begin
-      if(ewreg & (ern != 0) & (ern == rt) ) //将上一条指令的alu结果直通
+      if(ewreg & ~ em2reg &(ern != 0) & (ern == rt) ) //将上一条指令的alu结果直通
          fwdb<=2'b01;
       else  
          if (mwreg & ~ mm2reg & (mrn != 0) & (mrn == rt) )  //将前两条指令的alu结果直通
@@ -91,6 +91,14 @@ module sc_cu (op, func, rsrtequ, wmem, wreg, regrt, m2reg, aluc, shift,
 
    end
 	
+	/*
+
+	wire [1:0] fwda, fwdb;
+	assign fwda[1] = ~(ewreg & (ern != 0) & (ern == rs) & ~em2reg) & (mwreg & (mrn != 0) & (mrn == rs));
+	assign fwda[0] = (ewreg & (ern != 0) & (ern == rs) & ~em2reg) | (mwreg & (mrn != 0) & (mrn == rs) & mm2reg);
 	
+	assign fwdb[1] = ~(ewreg & (ern != 0) & (ern == rt) & ~em2reg) & (mwreg & (mrn != 0) & (mrn == rt));
+	assign fwdb[0] = (ewreg & (ern != 0) & (ern == rt) & ~em2reg) | (mwreg & (mrn != 0) & (mrn == rt) & mm2reg);
+*/
 	
 endmodule
