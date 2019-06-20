@@ -6,14 +6,14 @@ import copy
 
 INFILE = "mips.txt"
 OUTFILE = INFILE.split('.')[0] + ".mif"
-
+#OUTFILE="mips2.mif"
 tag_dict = {}
-r_dict = {'add', 'sub', 'and', 'or', 'xor', 'sll', 'srl', 'sra', 'jr'}
+r_dict = {'add', 'sub', 'and', 'or', 'xor', 'sll', 'srl', 'sra', 'jr','ext'}
 i_dict = {'lw', 'sw', 'beq', 'bne' , 'addi', 'andi', 'ori', 'xori', 'lui'}
 j_dict = {'j', 'jal'}
 
 special_r_dict = {'sll', 'srl', 'sra', 'jr'}
-shift_r_dict = {'beq', 'bne', 'sll', 'srl', 'sra'}
+shift_r_dict = {'sll', 'srl', 'sra'}
 
 special_i_dict = {'beq', 'bne', 'lw', 'sw', 'lui'}
 branch_i_dict = {'beq', 'bne'}
@@ -38,7 +38,8 @@ funct = {'add':'100000',
             'sll':'000000',
             'srl':'000010',
             'sra':'000011',
-            'jr' :'001000'}
+            'jr' :'001000',
+            'ext':'111111'}
 
 reg_dict = {
         '$0':0,
@@ -73,7 +74,7 @@ reg_dict = {
         '$29':29,
         '$30':30,
         '$31':31,
-        '$ra':8
+        '$ra':31
 }
 
 def complete (num, width):
@@ -82,9 +83,9 @@ def complete (num, width):
     '''
     format_ = '{0:0>'+str(width)+'b}'
     if (num >= 0):
-        return format_.format(num)
+        return format_.format(num)   # https://www.runoob.com/python/att-string-format.html
     else:
-        return bin(num & int('1' * width, 2))[2:]
+        return(format_.format(2**(width)+num))
 
 def bin2hex (bin_form):
     '''
@@ -167,7 +168,7 @@ def main():
             # 000000 $rs $rt $rd $shamt $funct
             machine_code += ('0' * 6)
             if op in special_r_dict:
-                if op in shift_r_dict:
+                if op in shift_r_dict:  # 'sll', 'srl', 'sra'
                     try:    
                         rd = reg2num(regs[0])
                         rs = 0
@@ -185,7 +186,7 @@ def main():
                     except Exception as e:
                         print ("Exception encountered in r-type conversion |", e)
                         #exit()    
-            else:
+            else:  # add', 'sub', 'and', 'or', 'xor',
                 try:
                     rd = reg2num(regs[0])
                     rs = reg2num(regs[1])
@@ -201,10 +202,10 @@ def main():
             machine_code += (complete(rs, 5)+ complete(rt, 5)+ complete(rd, 5) + complete(sa, 5))
             machine_code += funct[op]
         
-        elif op in i_dict:
+        elif op in i_dict: # i_dict = {'lw', 'sw', 'beq', 'bne' , 'addi', 'andi', 'ori', 'xori', 'lui'}
             machine_code += op_code[op]
-            if op in special_i_dict:
-                if op in branch_i_dict:
+            if op in special_i_dict:  #special_i_dict = {'beq', 'bne', 'lw', 'sw', 'lui'}
+                if op in branch_i_dict:   # branch_i_dict = {'beq', 'bne'}
                     try:
                         rs = reg2num(regs[0])
                         rt = reg2num(regs[1])
@@ -229,7 +230,7 @@ def main():
                     except Exception as e:
                         print ("Exception encountered in i-type conversion |", e)
                 
-            else:
+            else:   # 'addi', 'andi', 'ori', 'xori'
                 try:
                     rt = reg2num(regs[0])
                     rs = reg2num(regs[1])
@@ -256,3 +257,4 @@ def main():
 if __name__ == "__main__":
     main()
     #print complete(-1, 5)
+
